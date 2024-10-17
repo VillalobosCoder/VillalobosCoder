@@ -1,16 +1,16 @@
-## Hi there 👋
+# 👋 ¡Hola! Soy **Alejandro Villalobos** 
 
-<!--
-**VillalobosCoder/VillalobosCoder** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Sobre mi
+- 🔨 Actualmente trabajo en [Arsova](https://arsova.mx/)
+- 👨‍💻 Ingeniero en Sistemas con especialidad en ingeniería de software.
+- 💻📱 Apasionado por el desarrollo móvil y web.
+- 📈 Experiencia laboral en Android con Kotlin y React Native.
+- 🏠 Sinaloa, Mexico.
+- 🌐 Contactame por [linkedin](www.linkedin.com/in/cristian-alejandro-romero-villalobos)
+  
+## 🛠 Habilidades
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,postman,docker,java,spring,html,css,js,ts,react,tailwind,vite,kotlin,androidstudio,postgres" />
+  </a>
+</p>
