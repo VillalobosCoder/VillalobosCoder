@@ -1,7 +1,6 @@
 # 👋 ¡Hola! Soy **Alejandro Villalobos** 
 
 ### Sobre mi
-- 🔨 Actualmente trabajo en [Arsova](https://arsova.mx/)
 - 👨‍💻 Ingeniero en Sistemas con especialidad en ingeniería de software.
 - 💻📱 Apasionado por el desarrollo móvil y web.
 - 📈 Experiencia laboral en Android con Kotlin y React Native.
