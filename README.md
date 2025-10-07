@@ -2,8 +2,8 @@
 
 ### Sobre mi
 - 👨‍💻 Ingeniero en Sistemas con especialidad en ingeniería de software.
-- 💻📱 Apasionado por el desarrollo móvil y web.
-- 📈 Experiencia laboral en Android con Kotlin y React Native.
+- 💻📱 Apasionado por el desarrollo de software.
+- 📈 Experiencia laboral en desarrollo fullstack (Frontend, Backend, Movil nativo, Movil multiplataforma y bases de datos relacionales).
 - 🏠 Sinaloa, Mexico.
 - 🌐 Contactame por [linkedin](www.linkedin.com/in/cristian-alejandro-romero-villalobos)
   
