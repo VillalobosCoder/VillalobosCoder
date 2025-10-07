@@ -10,6 +10,6 @@
 ## 🛠 Habilidades
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,postman,docker,java,html,css,js,ts,react,tailwind,vite,kotlin,androidstudio,postgres,angular,express,laravel,nodejs,windows,linux,apple" />
+    <img src="https://skillicons.dev/icons?i=git,postman,docker,java,py,html,css,js,ts,react,nextjs,angular,tailwind,vite,kotlin,androidstudio,postgres,express,laravel,nodejs,windows,linux,apple" />
   </a>
 </p>
