@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" role="img"
+    aria-label="me">
+    <defs></defs>
+    <style>
+text{font-family:'Helvetica Neue',Helvetica,Arial,'Liberation Sans','DejaVu Sans',sans-serif}
+.m{font-family:'Fira Code','JetBrains Mono','SF Mono',Consolas,'DejaVu Sans Mono',monospace}
+
+.row{animation:fadein .6s ease-out backwards}
+@keyframes fadein{from{opacity:0;transform:translateX(-12px)}to{opacity:1;transform:none}}
+.ha{animation-duration:10s;animation-iteration-count:infinite;animation-timing-function:step-end}
+@keyframes ha0{0%,20.00%{opacity:1}20.01%,100%{opacity:0}}
+@keyframes ha1{0%,19.99%{opacity:0}20.00%,40.00%{opacity:1}40.01%,100%{opacity:0}}
+@keyframes ha2{0%,39.99%{opacity:0}40.00%,60.00%{opacity:1}60.01%,100%{opacity:0}}
+@keyframes ha3{0%,59.99%{opacity:0}60.00%,80.00%{opacity:1}80.01%,100%{opacity:0}}
+@keyframes ha4{0%,79.99%{opacity:0}80.00%,100%{opacity:1}}
+
+.hb{animation-duration:12s;animation-iteration-count:infinite;animation-timing-function:step-end}
+@keyframes hb0{0%,16.67%{opacity:1}16.68%,100%{opacity:0}}
+@keyframes hb1{0%,16.66%{opacity:0}16.67%,33.33%{opacity:1}33.34%,100%{opacity:0}}
+@keyframes hb2{0%,33.32%{opacity:0}33.33%,50.00%{opacity:1}50.01%,100%{opacity:0}}
+@keyframes hb3{0%,49.99%{opacity:0}50.00%,66.67%{opacity:1}66.68%,100%{opacity:0}}
+@keyframes hb4{0%,66.66%{opacity:0}66.67%,83.33%{opacity:1}83.34%,100%{opacity:0}}
+@keyframes hb5{0%,83.32%{opacity:0}83.33%,100%{opacity:1}}
+
+.led{animation:blink 1.6s steps(1) infinite}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:.15}}
+.q{animation:glow 4s ease-in-out infinite}
+@keyframes glow{0%,100%{opacity:.8}50%{opacity:1}}
+
+@media (prefers-reduced-motion:reduce){*{animation:none !important}}
+</style>
+    <rect width="1000" height="320" fill="#cdc8b0" />
+    <rect x="10" y="10" width="485" height="300" fill="#c4bfa7" stroke="#4a4640" stroke-width="2" />
+    <rect x="10" y="10" width="485" height="32" fill="#4a4640" />
+    <text x="30" y="31" font-size="12" fill="#cdc8b0" letter-spacing="4">ANIME</text>
+    <rect x="467" y="22" width="8" height="8" fill="#e58a63" class="led" />
+    <g class="ha" opacity="1" style="animation-name:ha0">
+        <rect x="16" y="58" width="473" height="32" fill="#4a4640" opacity=".13" />
+        <rect x="16" y="58" width="4" height="32" fill="#b8472f" />
+    </g>
+    <g class="row" style="animation-delay:0.00s">
+        <text x="34" y="79" font-size="11" font-weight="700" fill="#b8472f" letter-spacing="1">01</text>
+        <text x="72" y="81" font-size="19" fill="#4a4640" letter-spacing="1">Bleach</text>
+        <path d="M24 94H481" stroke="#8f8b78" stroke-dasharray="2 5" />
+    </g>
+    <g class="ha" opacity="0" style="animation-name:ha1">
+        <rect x="16" y="96" width="473" height="32" fill="#4a4640" opacity=".13" />
+        <rect x="16" y="96" width="4" height="32" fill="#b8472f" />
+    </g>
+    <g class="row" style="animation-delay:0.10s">
+        <text x="34" y="117" font-size="11" font-weight="700" fill="#b8472f" letter-spacing="1">02</text>
+        <text x="72" y="119" font-size="19" fill="#4a4640" letter-spacing="1">Berserk</text>
+        <path d="M24 132H481" stroke="#8f8b78" stroke-dasharray="2 5" />
+    </g>
+    <g class="ha" opacity="0" style="animation-name:ha2">
+        <rect x="16" y="134" width="473" height="32" fill="#4a4640" opacity=".13" />
+        <rect x="16" y="134" width="4" height="32" fill="#b8472f" />
+    </g>
+    <g class="row" style="animation-delay:0.20s">
+        <text x="34" y="155" font-size="11" font-weight="700" fill="#b8472f" letter-spacing="1">03</text>
+        <text x="72" y="157" font-size="19" fill="#4a4640" letter-spacing="1">Initial D</text>
+        <path d="M24 170H481" stroke="#8f8b78" stroke-dasharray="2 5" />
+    </g>
+    <g class="ha" opacity="0" style="animation-name:ha3">
+        <rect x="16" y="172" width="473" height="32" fill="#4a4640" opacity=".13" />
+        <rect x="16" y="172" width="4" height="32" fill="#b8472f" />
+    </g>
+    <g class="row" style="animation-delay:0.30s">
+        <text x="34" y="193" font-size="11" font-weight="700" fill="#b8472f" letter-spacing="1">04</text>
+        <text x="72" y="195" font-size="19" fill="#4a4640" letter-spacing="1">Mob Psycho 100</text>
+        <path d="M24 208H481" stroke="#8f8b78" stroke-dasharray="2 5" />
+    </g>
+    <g class="ha" opacity="0" style="animation-name:ha4">
+        <rect x="16" y="210" width="473" height="32" fill="#4a4640" opacity=".13" />
+        <rect x="16" y="210" width="4" height="32" fill="#b8472f" />
+    </g>
+    <g class="row" style="animation-delay:0.40s">
+        <text x="34" y="231" font-size="11" font-weight="700" fill="#b8472f" letter-spacing="1">05</text>
+        <text x="72" y="233" font-size="19" fill="#4a4640" letter-spacing="1">Evangelion</text>
+        <path d="M24 246H481" stroke="#8f8b78" stroke-dasharray="2 5" />
+    </g>
+    <rect x="505" y="10" width="485" height="300" fill="#c4bfa7" stroke="#4a4640" stroke-width="2" />
+    <rect x="505" y="10" width="485" height="32" fill="#4a4640" />
+    <text x="525" y="31" font-size="12" fill="#cdc8b0" letter-spacing="4">GAMES</text>
+    <rect x="962" y="22" width="8" height="8" fill="#e58a63" class="led" />
+    <g class="hb" opacity="1" style="animation-name:hb0">
+        <rect x="511" y="58" width="473" height="32" fill="#4a4640" opacity=".13" />
+        <rect x="511" y="58" width="4" height="32" fill="#b8472f" />
+    </g>
+    <g class="row" style="animation-delay:0.00s">
+        <text x="529" y="79" font-size="11" font-weight="700" fill="#b8472f" letter-spacing="1">01</text>
+        <text x="567" y="81" font-size="19" fill="#4a4640" letter-spacing="1">Halo</text>
+        <path d="M519 94H976" stroke="#8f8b78" stroke-dasharray="2 5" />
+    </g>
+    <g class="hb" opacity="0" style="animation-name:hb1">
+        <rect x="511" y="96" width="473" height="32" fill="#4a4640" opacity=".13" />
+        <rect x="511" y="96" width="4" height="32" fill="#b8472f" />
+    </g>
+    <g class="row" style="animation-delay:0.10s">
+        <text x="529" y="117" font-size="11" font-weight="700" fill="#b8472f" letter-spacing="1">02</text>
+        <text x="567" y="119" font-size="19" fill="#4a4640" letter-spacing="1">NieR: Automata</text>
+        <path d="M519 132H976" stroke="#8f8b78" stroke-dasharray="2 5" />
+    </g>
+    <g class="hb" opacity="0" style="animation-name:hb2">
+        <rect x="511" y="134" width="473" height="32" fill="#4a4640" opacity=".13" />
+        <rect x="511" y="134" width="4" height="32" fill="#b8472f" />
+    </g>
+    <g class="row" style="animation-delay:0.20s">
+        <text x="529" y="155" font-size="11" font-weight="700" fill="#b8472f" letter-spacing="1">03</text>
+        <text x="567" y="157" font-size="19" fill="#4a4640" letter-spacing="1">Persona</text>
+        <path d="M519 170H976" stroke="#8f8b78" stroke-dasharray="2 5" />
+    </g>
+    <g class="hb" opacity="0" style="animation-name:hb3">
+        <rect x="511" y="172" width="473" height="32" fill="#4a4640" opacity=".13" />
+        <rect x="511" y="172" width="4" height="32" fill="#b8472f" />
+    </g>
+    <g class="row" style="animation-delay:0.30s">
+        <text x="529" y="193" font-size="11" font-weight="700" fill="#b8472f" letter-spacing="1">04</text>
+        <text x="567" y="195" font-size="19" fill="#4a4640" letter-spacing="1">Dark Souls</text>
+        <path d="M519 208H976" stroke="#8f8b78" stroke-dasharray="2 5" />
+    </g>
+    <g class="hb" opacity="0" style="animation-name:hb4">
+        <rect x="511" y="210" width="473" height="32" fill="#4a4640" opacity=".13" />
+        <rect x="511" y="210" width="4" height="32" fill="#b8472f" />
+    </g>
+    <g class="row" style="animation-delay:0.40s">
+        <text x="529" y="231" font-size="11" font-weight="700" fill="#b8472f" letter-spacing="1">05</text>
+        <text x="567" y="233" font-size="19" fill="#4a4640" letter-spacing="1">The Legend of Zelda</text>
+        <path d="M519 246H976" stroke="#8f8b78" stroke-dasharray="2 5" />
+    </g>
+    <g class="hb" opacity="0" style="animation-name:hb5">
+        <rect x="511" y="248" width="473" height="32" fill="#4a4640" opacity=".13" />
+        <rect x="511" y="248" width="4" height="32" fill="#b8472f" />
+    </g>
+    <g class="row" style="animation-delay:0.50s">
+        <text x="529" y="269" font-size="11" font-weight="700" fill="#b8472f" letter-spacing="1">06</text>
+        <text x="567" y="271" font-size="19" fill="#4a4640" letter-spacing="1">Bayonetta</text>
+        <path d="M519 284H976" stroke="#8f8b78" stroke-dasharray="2 5" />
+    </g>
+</svg>

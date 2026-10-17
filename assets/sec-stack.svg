@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="56" viewBox="0 0 1000 56" role="img" aria-label="LOADOUT">
+<title>LOADOUT</title>
+<defs></defs>
+<style>
+text{font-family:'Helvetica Neue',Helvetica,Arial,'Liberation Sans','DejaVu Sans',sans-serif}
+.m{font-family:'Fira Code','JetBrains Mono','SF Mono',Consolas,'DejaVu Sans Mono',monospace}
+
+.ln{animation:draw 1.4s ease-out backwards}
+@keyframes draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+.mk{animation:blink 1.4s steps(1) infinite}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:.1}}
+
+@media (prefers-reduced-motion:reduce){*{animation:none !important}}
+</style>
+<rect width="1000" height="56" fill="#cdc8b0"/>
+
+<rect x="10" y="10" width="54" height="32" fill="#4a4640"/>
+<text x="37" y="31" text-anchor="middle" font-size="15" font-weight="700" fill="#cdc8b0" letter-spacing="2">03</text>
+<polygon points="84,21 89,26 84,31 79,26" fill="#b8472f" stroke="none" stroke-width="1" />
+<text x="100" y="32" font-size="20" fill="#4a4640" letter-spacing="4">LOADOUT</text>
+<text x="976" y="32" font-size="11" fill="#5f5b4e" text-anchor="end" letter-spacing="2">// STACK</text>
+<path d="M10 50H990" stroke="#8f8b78" stroke-width="1"/>
+<path class="ln" d="M10 50H990" pathLength="1" stroke="#4a4640" stroke-width="3" fill="none" stroke-dasharray="1" stroke-dashoffset="0"/>
+<rect class="mk" x="982" y="46" width="8" height="8" fill="#b8472f"/>
+
+</svg>

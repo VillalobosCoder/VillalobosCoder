@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="322" viewBox="0 0 1000 322" role="img"
+    aria-label="Status panel: profile details">
+    <title>Status panel: profile details</title>
+    <defs></defs>
+    <style>
+text{font-family:'Helvetica Neue',Helvetica,Arial,'Liberation Sans','DejaVu Sans',sans-serif}
+.m{font-family:'Fira Code','JetBrains Mono','SF Mono',Consolas,'DejaVu Sans Mono',monospace}
+
+.row{animation:fadein .6s ease-out backwards}
+@keyframes fadein{from{opacity:0;transform:translateX(-12px)}to{opacity:1;transform:none}}
+.hl{animation-duration:14s;animation-iteration-count:infinite;animation-timing-function:step-end}
+@keyframes hl0{0%,16.67%{opacity:1}16.68%,100%{opacity:0}}
+@keyframes hl1{0%,16.66%{opacity:0}16.67%,33.33%{opacity:1}33.34%,100%{opacity:0}}
+@keyframes hl2{0%,33.32%{opacity:0}33.33%,50.00%{opacity:1}50.01%,100%{opacity:0}}
+@keyframes hl3{0%,49.99%{opacity:0}50.00%,66.67%{opacity:1}66.68%,100%{opacity:0}}
+@keyframes hl4{0%,66.66%{opacity:0}66.67%,83.33%{opacity:1}83.34%,100%{opacity:0}}
+@keyframes hl5{0%,83.32%{opacity:0}83.33%,100%{opacity:1}}
+
+.led{animation:blink 1.6s steps(1) infinite}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:.15}}
+
+@media (prefers-reduced-motion:reduce){*{animation:none !important}}
+</style>
+    <rect width="1000" height="322" fill="#cdc8b0" />
+
+    <rect x="10" y="10" width="980" height="302" fill="#c4bfa7" stroke="#4a4640" stroke-width="2" />
+    <rect x="10" y="10" width="980" height="32" fill="#4a4640" />
+    <text x="30" y="31" font-size="12" fill="#cdc8b0" letter-spacing="4">STATUS</text>
+    <rect x="946" y="22" width="8" height="8" fill="none" stroke="#cdc8b0" />
+    <rect class="led" x="962" y="22" width="8" height="8" fill="#e58a63" />
+
+    <g class="hl" opacity="1" style="animation-name:hl0">
+        <rect x="14" y="64" width="972" height="34" fill="#4a4640" opacity=".13" />
+        <rect x="14" y="64" width="4" height="34" fill="#b8472f" />
+    </g>
+    <g class="hl" opacity="0" style="animation-name:hl1">
+        <rect x="14" y="102" width="972" height="34" fill="#4a4640" opacity=".13" />
+        <rect x="14" y="102" width="4" height="34" fill="#b8472f" />
+    </g>
+    <g class="hl" opacity="0" style="animation-name:hl2">
+        <rect x="14" y="140" width="972" height="34" fill="#4a4640" opacity=".13" />
+        <rect x="14" y="140" width="4" height="34" fill="#b8472f" />
+    </g>
+    <g class="hl" opacity="0" style="animation-name:hl3">
+        <rect x="14" y="178" width="972" height="34" fill="#4a4640" opacity=".13" />
+        <rect x="14" y="178" width="4" height="34" fill="#b8472f" />
+    </g>
+    <g class="hl" opacity="0" style="animation-name:hl4">
+        <rect x="14" y="216" width="972" height="34" fill="#4a4640" opacity=".13" />
+        <rect x="14" y="216" width="4" height="34" fill="#b8472f" />
+    </g>
+    <g class="hl" opacity="0" style="animation-name:hl5">
+        <rect x="14" y="254" width="972" height="34" fill="#4a4640" opacity=".13" />
+        <rect x="14" y="254" width="4" height="34" fill="#b8472f" />
+    </g>
+
+    <g class="row" style="animation-delay:0.00s">
+        <text x="38" y="84" font-size="12" font-weight="700" fill="#5f5b4e" letter-spacing="2">
+            NICKNAME</text>
+        <text x="962" y="84" text-anchor="end" font-size="17" font-weight="400" fill="#4a4640">
+            VillalobosCoder</text>
+        <path d="M30 98H970" stroke="#8f8b78" stroke-width="1" stroke-dasharray="2 4" />
+    </g>
+    <g class="row" style="animation-delay:0.14s">
+        <text x="38" y="122" font-size="12" font-weight="700" fill="#5f5b4e" letter-spacing="2">
+            CLASS</text>
+        <text x="962" y="122" text-anchor="end" font-size="17" font-weight="400" fill="#4a4640">Software
+            Engineer</text>
+        <path d="M30 136H970" stroke="#8f8b78" stroke-width="1" stroke-dasharray="2 4" />
+    </g>
+    <g class="row" style="animation-delay:0.28s">
+        <text x="38" y="160" font-size="12" font-weight="700" fill="#5f5b4e" letter-spacing="2">BASE</text>
+        <text x="962" y="160" text-anchor="end" font-size="17" font-weight="400" fill="#4a4640">Culiacán,
+            Sinaloa · Mexico</text>
+        <path d="M30 174H970" stroke="#8f8b78" stroke-width="1" stroke-dasharray="2 4" />
+    </g>
+    <g class="row" style="animation-delay:0.42s">
+        <text x="38" y="198" font-size="12" font-weight="700" fill="#5f5b4e" letter-spacing="2">
+            EDUCATION</text>
+        <text x="962" y="198" text-anchor="end" font-size="17" font-weight="400" fill="#4a4640">TECNM
+            · Computer Science</text>
+        <path d="M30 212H970" stroke="#8f8b78" stroke-width="1" stroke-dasharray="2 4" />
+    </g>
+    <g class="row" style="animation-delay:0.56s">
+        <text x="38" y="236" font-size="12" font-weight="700" fill="#5f5b4e" letter-spacing="2">PASSIVE
+            SKILL</text>
+        <text x="962" y="236" text-anchor="end" font-size="17" font-weight="400" fill="#4a4640">Continuous
+            improvement</text>
+        <path d="M30 250H970" stroke="#8f8b78" stroke-width="1" stroke-dasharray="2 4" />
+    </g>
+    <g class="row" style="animation-delay:0.70s">
+        <text x="38" y="274" font-size="12" font-weight="700" fill="#5f5b4e" letter-spacing="2">CURRENT
+            FOCUS</text>
+        <text x="962" y="274" text-anchor="end" font-size="17" font-weight="400" fill="#4a4640">Node.js
+            · Architecture · Performance</text>
+        <path d="M30 288H970" stroke="#8f8b78" stroke-width="1" stroke-dasharray="2_4" />
+    </g>
+
+</svg>

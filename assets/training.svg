@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" role="img" aria-label="Current training: Node.js in depth">
+<title>Current training: Node.js in depth</title>
+<defs><pattern id="scl" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" opacity=".16" /></pattern></defs>
+<style>
+text{font-family:'Helvetica Neue',Helvetica,Arial,'Liberation Sans','DejaVu Sans',sans-serif}
+.m{font-family:'Fira Code','JetBrains Mono','SF Mono',Consolas,'DejaVu Sans Mono',monospace}
+
+.tl{animation-duration:14s;animation-iteration-count:infinite;animation-timing-function:ease-out}
+@keyframes t0{0%,3%{opacity:0;transform:translateX(-10px)}5.5%{opacity:1;transform:none}92%{opacity:1}97%,100%{opacity:0}}
+@keyframes t1{0%,14%{opacity:0;transform:translateX(-10px)}16.5%{opacity:1;transform:none}92%{opacity:1}97%,100%{opacity:0}}
+@keyframes t2{0%,25%{opacity:0;transform:translateX(-10px)}27.5%{opacity:1;transform:none}92%{opacity:1}97%,100%{opacity:0}}
+@keyframes t3{0%,36%{opacity:0;transform:translateX(-10px)}38.5%{opacity:1;transform:none}92%{opacity:1}97%,100%{opacity:0}}
+@keyframes t4{0%,47%{opacity:0;transform:translateX(-10px)}49.5%{opacity:1;transform:none}92%{opacity:1}97%,100%{opacity:0}}
+
+.cur{animation:blink 1s steps(1) infinite}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+.orb,.orb.r{transform-origin:800px 182px;animation-name:spin;animation-timing-function:linear;animation-iteration-count:infinite}
+.orb.r{animation-direction:reverse}
+@keyframes spin{to{transform:rotate(360deg)}}
+.core{animation:pulse 3s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.6}50%{opacity:1}}
+
+@media (prefers-reduced-motion:reduce){*{animation:none !important}}
+</style>
+<rect width="1000" height="320" fill="#cdc8b0" />
+
+<rect x="10" y="10" width="980" height="300" fill="#4a4640" stroke="#3b3832" stroke-width="2" />
+
+<rect x="10" y="10" width="980" height="300" fill="url(#scl)" />
+
+<rect x="10" y="10" width="980" height="34" fill="#3b3832" />
+<rect x="28" y="22" width="10" height="10" fill="none" stroke="#cdc8b0" /><rect x="46" y="22" width="10" height="10" fill="none" stroke="#cdc8b0" /><rect x="64" y="22" width="10" height="10" fill="#e58a63" />
+<text class="m" x="500" y="32" text-anchor="middle" font-size="13" fill="#dcd8c3" letter-spacing="1">~/node-deep-dive</text>
+
+<circle class="core" cx="800" cy="182" r="34" fill="none" stroke="#cdc8b0" stroke-opacity=".25" />
+<g class="orb" style="animation-duration:18s"><polygon points="800,124 858,182 800,240 742,182" fill="none" stroke="#cdc8b0" stroke-width="1" stroke-opacity=".45" /><rect x="796" y="120" width="8" height="8" fill="#cdc8b0" /></g><g class="orb r" style="animation-duration:28s"><polygon points="800,94 888,182 800,270 712,182" fill="none" stroke="#cdc8b0" stroke-width="1" stroke-opacity=".45" /><rect x="796" y="90" width="8" height="8" fill="#e58a63" /></g><g class="orb" style="animation-duration:40s"><polygon points="800,64 918,182 800,300 682,182" fill="none" stroke="#cdc8b0" stroke-width="1" stroke-opacity=".45" /><rect x="796" y="60" width="8" height="8" fill="#cdc8b0" /></g>
+<text x="800" y="188" text-anchor="middle" font-size="22" font-weight="700" fill="#cdc8b0" letter-spacing="2">NODE.JS</text>
+<text x="800" y="208" text-anchor="middle" font-size="10" fill="#dcd8c3" letter-spacing="4">EVENT LOOP</text>
+
+<text class="tl m" x="40" y="96" font-size="17" style="animation-name:t0"><tspan fill="#e58a63">$ </tspan><tspan fill="#cdc8b0">node --learn --deep</tspan></text>
+<g class="tl" style="animation-name:t1"><path d="M40 123L45 128L54 116" fill="none" stroke="#cdc8b0" stroke-width="2.6" stroke-linecap="square" /><text class="m" x="62" y="130" font-size="17" fill="#dcd8c3">event loop · libuv · microtasks</text></g>
+<g class="tl" style="animation-name:t2"><path d="M40 157L45 162L54 150" fill="none" stroke="#cdc8b0" stroke-width="2.6" stroke-linecap="square" /><text class="m" x="62" y="164" font-size="17" fill="#dcd8c3">streams · backpressure · buffers</text></g>
+<g class="tl" style="animation-name:t3"><polygon points="47,185 53,191 47,197 41,191" fill="#e58a63" stroke="none" stroke-width="1" /><text class="m" x="62" y="198" font-size="17" fill="#dcd8c3">profiling · memory leaks · optimization</text></g>
+<g class="tl" style="animation-name:t4"><text class="m" x="40" y="232" font-size="17" fill="#e58a63">$ </text><rect class="cur" x="62" y="217" width="10" height="19" fill="#cdc8b0" /></g>
+
+</svg>
