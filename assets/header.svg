@@ -1,23 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-label="ALEJANDRO VILLALOBOS — Software Engineer">
-<title>ALEJANDRO VILLALOBOS — Software Engineer</title>
-<defs>
-<pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#8f8b78" opacity=".55"/></pattern>
-<pattern id="scl" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#4a4640" opacity=".07"/></pattern>
-<clipPath id="b1"><rect x="0" y="96" width="1000" height="12"/></clipPath>
-<clipPath id="b2"><rect x="0" y="114" width="1000" height="12"/></clipPath>
-</defs>
-<style>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img"
+    aria-label="ALEJANDRO VILLALOBOS — Software Engineer">
+    <title>ALEJANDRO VILLALOBOS — Software Engineer</title>
+    <defs>
+        <pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse">
+            <circle cx="1" cy="1" r="1" fill="#8f8b78" opacity=".55" />
+        </pattern>
+        <pattern id="scl" width="4" height="4" patternUnits="userSpaceOnUse">
+            <rect width="4" height="1" fill="#4a4640" opacity=".07" />
+        </pattern>
+        <clipPath id="b1">
+            <rect x="0" y="96" width="1000" height="12" />
+        </clipPath>
+        <clipPath id="b2">
+            <rect x="0" y="114" width="1000" height="12" />
+        </clipPath>
+    </defs>
+    <style>
 text{font-family:'Helvetica Neue',Helvetica,Arial,'Liberation Sans','DejaVu Sans',sans-serif}
 .m{font-family:'Fira Code','JetBrains Mono','SF Mono',Consolas,'DejaVu Sans Mono',monospace}
 
-.grid{animation:drift 9s linear infinite}
+.grid{animation:drift 7s linear infinite}
 @keyframes drift{to{transform:translate(14px,14px)}}
-.cy{animation-duration:12s;animation-iteration-count:infinite;animation-timing-function:ease-in-out}
-@keyframes cy0{0%{opacity:0;transform:translateY(8px)}2.50%{opacity:1;transform:translateY(0)}22.00%{opacity:1;transform:translateY(0)}25.00%,100%{opacity:0;transform:translateY(-8px)}}
-@keyframes cy1{0%,25.00%{opacity:0;transform:translateY(8px)}27.50%{opacity:1;transform:translateY(0)}47.00%{opacity:1;transform:translateY(0)}50.00%,100%{opacity:0;transform:translateY(-8px)}}
-@keyframes cy2{0%,50.00%{opacity:0;transform:translateY(8px)}52.50%{opacity:1;transform:translateY(0)}72.00%{opacity:1;transform:translateY(0)}75.00%,100%{opacity:0;transform:translateY(-8px)}}
-@keyframes cy3{0%,75.00%{opacity:0;transform:translateY(8px)}77.50%{opacity:1;transform:translateY(0)}97.00%{opacity:1;transform:translateY(0)}100.00%,100%{opacity:0;transform:translateY(-8px)}}
-
+.cy{animation-duration:9s;animation-iteration-count:infinite;animation-timing-function:ease-in-out}
+@keyframes cy0{
+  0%, 28% {opacity:1; transform:translateY(0)}
+  31%, 33.33% {opacity:0; transform:translateY(-8px)}
+  33.34%, 96% {opacity:0; transform:translateY(8px)}
+  97%, 100% {opacity:1; transform:translateY(0)}
+}
+@keyframes cy1{
+  0%, 31% {opacity:0; transform:translateY(8px)}
+  34%, 61% {opacity:1; transform:translateY(0)}
+  64%, 100% {opacity:0; transform:translateY(-8px)}
+}
+@keyframes cy2{
+  0%, 64% {opacity:0; transform:translateY(8px)}
+  67%, 94% {opacity:1; transform:translateY(0)}
+  97%, 100% {opacity:0; transform:translateY(-8px)}
+}
 .rot{animation:spin 48s linear infinite}
 .rot.r{animation-direction:reverse}
 @keyframes spin{to{transform:rotate(360deg)}}
@@ -33,28 +53,72 @@ text{font-family:'Helvetica Neue',Helvetica,Arial,'Liberation Sans','DejaVu Sans
 
 @media (prefers-reduced-motion:reduce){*{animation:none !important}}
 </style>
-<rect width="1000" height="300" fill="#cdc8b0"/>
+    <rect width="1000" height="300" fill="#cdc8b0" />
 
-<rect class="grid" x="-14" y="-14" width="1028" height="328" fill="url(#dots)"/>
-<g class="rot" style="transform-origin:72px 150px"><polygon points="72,94 128,150 72,206 16,150" fill="none" stroke="#8f8b78" stroke-width="1" /><polygon points="72,112 110,150 72,188 34,150" fill="none" stroke="#8f8b78" stroke-width="1" /><polygon points="72,130 92,150 72,170 52,150" fill="none" stroke="#4a4640" stroke-width="1.5" /></g><g class="rot r" style="transform-origin:928px 150px"><polygon points="928,94 984,150 928,206 872,150" fill="none" stroke="#8f8b78" stroke-width="1" /><polygon points="928,112 966,150 928,188 890,150" fill="none" stroke="#8f8b78" stroke-width="1" /><polygon points="928,130 948,150 928,170 908,150" fill="none" stroke="#4a4640" stroke-width="1.5" /></g>
-<g fill="none" stroke="#4a4640" stroke-width="2">
-<path d="M20 64V46H38"/><path d="M980 64V46H962"/><path d="M20 236V254H38"/><path d="M980 236V254H962"/>
-</g>
-<rect x="0" y="0" width="1000" height="28" fill="#4a4640"/>
-<rect class="blink" x="20" y="10" width="8" height="8" fill="#e58a63"/>
-<text x="38" y="19" font-size="11" fill="#cdc8b0" letter-spacing="3">SYSTEM ONLINE</text>
-<text x="980" y="19" font-size="11" fill="#cdc8b0" letter-spacing="3" text-anchor="end">SINALOA, MX</text>
-<text x="150" y="126" font-size="46" font-weight="300" textLength="700" lengthAdjust="spacing" fill="#4a4640">ALEJANDRO VILLALOBOS</text>
-<g class="gl" clip-path="url(#b1)"><text x="150" y="126" font-size="46" font-weight="300" textLength="700" lengthAdjust="spacing" fill="#b8472f">ALEJANDRO VILLALOBOS</text></g>
-<g class="gl b" clip-path="url(#b2)"><text x="150" y="126" font-size="46" font-weight="300" textLength="700" lengthAdjust="spacing" fill="#4a4640">ALEJANDRO VILLALOBOS</text></g>
-<path d="M150 152H850" stroke="#4a4640" stroke-width="1"/>
-<path d="M150 160H850" stroke="#8f8b78" stroke-width="4" stroke-dasharray="1 7"/>
-<rect class="sweep" x="150" y="150" width="100" height="4" fill="#b8472f"/>
-<g class="cy" opacity="0" style="animation-name:cy1"><polygon points="133.5,202 138.5,207 133.5,212 128.5,207" fill="#b8472f" stroke="none" stroke-width="1" /><text x="156" y="213" font-size="20" fill="#4a4640" textLength="713" lengthAdjust="spacing">SOFTWARE ENGINEER</text></g>
-<g class="cy" opacity="1" style="animation-name:cy0"><polygon points="273.0,202 278.0,207 273.0,212 268.0,207" fill="#b8472f" stroke="none" stroke-width="1" /><text x="295" y="213" font-size="20" fill="#4a4640" textLength="434" lengthAdjust="spacing">FULLSTACK DEVELOPER</text></g>
-<g class="cy" opacity="0" style="animation-name:cy3"><polygon points="149.0,202 154.0,207 149.0,212 144.0,207" fill="#b8472f" stroke="none" stroke-width="1" /><text x="171" y="213" font-size="20" fill="#4a4640" textLength="682" lengthAdjust="spacing">CONTINUOUS IMPROVEMENT</text></g>
+    <rect class="grid" x="-14" y="-14" width="1028" height="328" fill="url(#dots)" />
+    <g class="rot" style="transform-origin:72px 150px">
+        <polygon points="72,94 128,150 72,206 16,150" fill="none" stroke="#8f8b78" stroke-width="1" />
+        <polygon points="72,112 110,150 72,188 34,150" fill="none" stroke="#8f8b78" stroke-width="1" />
+        <polygon points="72,130 92,150 72,170 52,150" fill="none" stroke="#4a4640"
+            stroke-width="1.5" />
+    </g>
+    <g class="rot r" style="transform-origin:928px 150px">
+        <polygon points="928,94 984,150 928,206 872,150" fill="none" stroke="#8f8b78"
+            stroke-width="1" />
+        <polygon points="928,112 966,150 928,188 890,150" fill="none" stroke="#8f8b78"
+            stroke-width="1" />
+        <polygon points="928,130 948,150 928,170 908,150" fill="none" stroke="#4a4640"
+            stroke-width="1.5" />
+    </g>
+    <g fill="none" stroke="#4a4640" stroke-width="2">
+        <path d="M20 64V46H38" />
+        <path d="M980 64V46H962" />
+        <path d="M20 236V254H38" />
+        <path d="M980 236V254H962" />
+    </g>
+    <rect x="0" y="0" width="1000" height="28" fill="#4a4640" />
+    <rect class="blink" x="20" y="10" width="8" height="8" fill="#e58a63" />
+    <text x="38" y="19" font-size="11" fill="#cdc8b0" letter-spacing="3">SYSTEM ONLINE</text>
+    <text x="980" y="19" font-size="11" fill="#cdc8b0" letter-spacing="3" text-anchor="end">SINALOA,
+        MX</text>
+    <text x="150" y="126" font-size="46" font-weight="300" textLength="700" lengthAdjust="spacing"
+        fill="#4a4640">ALEJANDRO VILLALOBOS</text>
+    <g class="gl" clip-path="url(#b1)">
+        <text x="150" y="126" font-size="46" font-weight="300" textLength="700"
+            lengthAdjust="spacing" fill="#b8472f">ALEJANDRO VILLALOBOS</text>
+    </g>
+    <g class="gl b" clip-path="url(#b2)">
+        <text x="150" y="126" font-size="46" font-weight="300" textLength="700"
+            lengthAdjust="spacing" fill="#4a4640">ALEJANDRO VILLALOBOS</text>
+    </g>
+    <path d="M150 152H850" stroke="#4a4640" stroke-width="1" />
+    <path d="M150 160H850" stroke="#8f8b78" stroke-width="4" stroke-dasharray="1 7" />
+    <rect class="sweep" x="150" y="150" width="100" height="3" fill="#b8472f" />
+    <g class="cy" opacity="0" style="animation-name:cy0">
+        <polygon points="133.5,202 138.5,207 133.5,212 128.5,207" fill="#b8472f" stroke="none"
+            stroke-width="1" />
+        <text x="156" y="213" font-size="20" fill="#4a4640" textLength="713" lengthAdjust="spacing">SOFTWARE
+            ENGINEER</text>
+    </g>
+    <g class="cy" opacity="1" style="animation-name:cy1">
+        <polygon points="273.0,202 278.0,207 273.0,212 268.0,207" fill="#b8472f" stroke="none"
+            stroke-width="1" />
+        <text x="295" y="213" font-size="20" fill="#4a4640" textLength="434" lengthAdjust="spacing">FULLSTACK
+            DEVELOPER</text>
+    </g>
+    <g class="cy" opacity="0" style="animation-name:cy2">
+        <polygon points="149.0,202 154.0,207 149.0,212 144.0,207" fill="#b8472f" stroke="none"
+            stroke-width="1" />
+        <text x="171" y="213" font-size="20" fill="#4a4640" textLength="682" lengthAdjust="spacing">CONTINUOUS
+            IMPROVEMENT</text>
+    </g>
 
-<rect x="0" y="272" width="1000" height="28" fill="#4a4640"/>
-<g class="blink"><polygon points="392,282 396,286 392,290 388,286" fill="#e58a63" stroke="none" stroke-width="1" /><text x="514" y="290" text-anchor="middle" font-size="11" fill="#cdc8b0" letter-spacing="5">PRESS TO CONTINUE</text></g>
+    <rect x="0" y="272" width="1000" height="28" fill="#4a4640" />
+    <g class="blink">
+        <polygon points="392,282 396,286 392,290 388,286" fill="#e58a63" stroke="none"
+            stroke-width="1" />
+        <text x="514" y="290" text-anchor="middle" font-size="11" fill="#cdc8b0" letter-spacing="5">PRESS
+            TO CONTINUE</text>
+    </g>
 
 </svg>
